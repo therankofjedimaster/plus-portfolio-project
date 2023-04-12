@@ -1,10 +1,23 @@
 body {
   font-family: 'Lato', sans-serif;
+  background-color: rgb(249, 247, 244);
+}
+h1,
+h2,
+h3 {
+  display: flex;
+  justify-content: center;
 }
 h1 {
   text-align: center;
   padding: 20px;
   font-weight: 800;
+}
+h2 {
+  text-align: center;
+  line-height: 1.5;
+  width: 100%;
+  padding: 20px;
 }
 h3 {
   text-align: center;
@@ -12,14 +25,18 @@ h3 {
   font-weight: 400;
 }
 
+footer {
+  position: relative;
+  bottom: 2px;
+}
+
+.homepage-header {
+  font-size: 96px;
+}
+
 .contact {
   display: flex;
   justify-content: center;
-  border: 2px solid black;
-  border-radius: 10px;
-  line-height: 1.5;
-  padding: 10px;
-  width: 20%;
 }
 .contact-me {
   display: flex;
