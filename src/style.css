@@ -70,14 +70,13 @@ li {
 ul {
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 @media (max-width: 740px) {
   .homepage-header {
     font-size: 50px;
   }
   .homepage-description {
-    font-size: 20px;
+    font-size: 19px;
   }
   .usernames {
     font-size: 15px;
@@ -104,11 +103,10 @@ ul {
   background: #def0f0;
 }
 .homepage-header {
-  font-size: 96px;
+  font-size: 60px;
 }
 .homepage-description {
-  margin: 20px;
-  padding: 10px;
+  font-size: 30px;
 }
 
 .firstex,
