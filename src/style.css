@@ -1,13 +1,19 @@
-body {
+body,
+.navbar {
   font-family: 'Lato', sans-serif;
+}
+body {
   background-color: rgb(249, 247, 244);
 }
 a {
   font-weight: 600;
   text-decoration: none;
 }
-a:hover {
+a:hover,
+button:hover,
+.nav-link:hover {
   color: #ef4b6f;
+  transition: all 200ms ease;
 }
 button {
   background-color: #95e9e9;
@@ -17,9 +23,6 @@ button {
   font-weight: 600;
   margin: 0 auto;
   padding: 10px;
-}
-button:hover {
-  color: #ef4b6f;
 }
 footer {
   font-style: italic;
@@ -81,6 +84,9 @@ ul {
   .usernames {
     font-size: 15px;
   }
+  img {
+    display: none;
+  }
 }
 .aboutme {
   line-height: 1.5;
@@ -118,18 +124,35 @@ ul {
 .secondex {
   padding: 20px;
 }
-.contact {
-  display: flex;
-  justify-content: center;
-}
+
 .contact-me {
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 100%;
 }
 
+p.contact-me {
+  font-size: 20px;
+  font-weight: 500;
+}
 .usernames {
   font-size: 25px;
-  padding: 30px;
+  text-align: center;
+  line-height: 2;
+}
+.usernames:hover {
+  transform: scale(1.1);
+  transition: all 200ms ease;
+}
+
+.launch:hover {
+  transform: scale(1.1);
+  transition: all 200ms ease;
+}
+.navbar-brand {
+  font-size: 21px;
+  color: #272343;
+}
+.nav-link {
+  font-size: 18px;
 }
