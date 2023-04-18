@@ -26,9 +26,9 @@ button {
   padding: 10px;
 }
 footer {
+  border-top: 1px solid #272343;
   font-style: italic;
   margin: 20px;
-  border-top: 1px solid #272343;
   text-align: center;
 }
 p footer {
@@ -36,9 +36,9 @@ p footer {
 }
 .icons {
   display: flex;
+  justify-content: space-around;
   margin: 0 auto;
   padding: 5px 10px;
-  justify-content: space-around;
 }
 h1,
 h2,
