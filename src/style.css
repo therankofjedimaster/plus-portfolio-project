@@ -15,6 +15,7 @@ button:hover,
   color: #ef4b6f;
   transition: all 200ms ease;
 }
+
 button {
   background-color: #95e9e9;
   border-radius: 10px;
@@ -26,7 +27,18 @@ button {
 }
 footer {
   font-style: italic;
-  margin: 50px;
+  margin: 20px;
+  border-top: 1px solid #272343;
+  text-align: center;
+}
+p footer {
+  text-align: center;
+}
+.icons {
+  display: flex;
+  margin: 0 auto;
+  padding: 5px 10px;
+  justify-content: space-around;
 }
 h1,
 h2,
