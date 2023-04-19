@@ -22,7 +22,6 @@ button {
   border: 2px solid #272343;
   display: block;
   font-weight: 600;
-  margin: 0 auto;
   padding: 10px;
 }
 footer {
@@ -104,6 +103,18 @@ ul {
   line-height: 1.5;
   list-style: disc;
   font-size: 20px;
+}
+.firstex button,
+.secondex button,
+.thirdex button {
+  display: block;
+  margin: 0 auto;
+}
+.firstex p,
+.secondex p,
+.thirdex p {
+  line-height: 2;
+  text-align: justify;
 }
 
 .contact-button {
